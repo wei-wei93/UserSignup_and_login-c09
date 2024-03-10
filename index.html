@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="form-box">
+      <form id="form">
+        <div class="select-btns">
+          <button id="signup_btn" type="button">Sign Up</button
+          ><button id="login_btn" type="button" class="disable">Log In</button>
+        </div>
+        <h id="title">Sign Up for Free</h>
+        <div class="input-group">
+          <div class="input-control" id="name_fields">
+            <input
+              id="first_name"
+              type="text"
+              class="name-field"
+              placeholder="First Name"
+            /><input id="last_name" type="text" class="name-field" placeholder="Last Name" />
+            <div class="errorMessage"></div>
+          </div>
+
+          <div class="input-control">
+            <input
+              id="email"
+              type="text"
+              class="input-text"
+              placeholder="Email Address"
+            />
+            <div class="errorMessage"></div>
+          </div>
+
+          <div class="input-control">
+            <input
+              id="password"
+              type="password"
+              class="input-text"
+              placeholder="Set A Password"
+            />
+            <div class="errorMessage"></div>
+          </div>
+        </div>
+        <button class="form-submit" type="submit">GET STARTED</button>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

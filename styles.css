@@ -1,0 +1,88 @@
+.form-box {
+    border: 1px solid;
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+    margin-inline: auto;    
+    text-align: center;
+    background-color: #212121;
+}
+
+.select-btns {
+    margin-inline: auto;
+    margin-top: 25px;
+    width: 420px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.select-btns button {
+    border: unset;
+    width: 50%;
+    height: 100%;
+    font-size: 15px;
+    color: rgb(176, 185, 193);
+    background-color: rgb(26, 78, 35);
+    transition: 0.2s;
+}
+
+.select-btns button.disable {
+    background-color: #555;
+}
+
+h#title {
+    color: rgb(170, 177, 183);
+    font-size: 30px;
+}
+
+.input-group {
+    width: 500px;
+    height: 165px;
+    margin-top: 40px;
+}
+
+.name-field {
+    background-color: #212121;
+    color: aliceblue;
+    border: 2px solid rgb(95, 99, 104);
+    height: 30px;
+    width: 186.5px;
+    margin-inline: 10px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.input-text {
+    background-color: #212121;
+    color: aliceblue;
+    border: 2px solid rgb(95, 99, 104);
+    height: 30px;
+    width: 408px;
+    padding-left: 10px;
+}
+
+.input-control {
+    margin-bottom: 15px;
+}
+
+.form-submit {
+    height: 50px;
+    width: 423px;
+    margin-top: 50px;
+    font-size: x-large;
+    color: rgb(176, 185, 193);
+    background-color:rgb(26, 78, 35);
+}
+
+/* Validation */
+input.error {
+    border-color: #ff3860;
+}
+input.success {
+    border-color: #09c372;
+}
+.errorMessage {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
